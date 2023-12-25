@@ -2,6 +2,10 @@ from random import randint
 
 
 def attack(char_name, char_class):
+    """пу пу пу
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     if char_class == 'warrior':
         uron = 5 + randint(3, 5)
         return (f'{char_name} нанёс урон противнику равный {uron}')
@@ -15,6 +19,10 @@ def attack(char_name, char_class):
 
 
 def defence(char_name, char_class):
+    """пу пу пу      
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     if char_class == 'warrior':
         return (f'{char_name} блокировал {10 + randint(5, 10)} урона')
     if char_class == 'mage':
@@ -24,7 +32,11 @@ def defence(char_name, char_class):
     return ""
 
 
-def special(char_name, char_class):
+def special(char_name, char_class):   
+    """пу пу пу
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     if char_class == 'warrior':
         u = 80 + 25
         return (f'{char_name} применил специальное умение «Выносливость {u}»')
@@ -36,6 +48,10 @@ def special(char_name, char_class):
 
 
 def start_training(char_name, char_class):
+    """пу пу пу
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     if char_class == 'warrior':
         print(f'{char_name}, ты Воитель — отличный боец ближнего боя.')
     if char_class == 'mage':
@@ -60,6 +76,10 @@ def start_training(char_name, char_class):
 
 
 def choice_char_class():
+    """пу пу пу
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
@@ -82,6 +102,10 @@ def choice_char_class():
 
 
 def main():
+    """пу пу пу
+       char_namen -- пубу пубу
+       char_class -- бупубупу
+    """
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name = input('...назови себя: ')
